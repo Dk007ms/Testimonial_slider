@@ -27,7 +27,7 @@ export default function Card(props) {
       <div className='mediaquery text-black xl:text-5xl text-3xl font-bold font-mono'>
         {rev[index].name}
       </div>
-      <p className='mediaquery review w-4/6 relative text-center font-serif xl:text-lg '>
+      <p className='mediaquery review w-5/6 h-48 sm:h-28 relative text-center font-serif xl:text-lg '>
         <BiSolidQuoteSingleLeft className=' inline-block text-xl'/>
         {rev[index].text}
         <BiSolidQuoteSingleRight className='inline-block text-xl'/>
